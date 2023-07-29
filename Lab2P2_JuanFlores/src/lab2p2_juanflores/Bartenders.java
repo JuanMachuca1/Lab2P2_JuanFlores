@@ -8,20 +8,31 @@ package lab2p2_juanflores;
 public class Bartenders {
     private String nombre;
     private int edad;
+    
     private String turno;
+    private double sueldo;
     private int licores;
     
     
     public Bartenders(){
         
     }
-    public Bartenders(String nombre, int edad, String turno, int licores){
+    public Bartenders(String nombre, int edad, String turno,double sueldo, int licores){
         this.nombre=nombre;
         this.edad=edad;
         this.turno=turno;
         this.licores=licores;
         
     }
+
+    public double getSueldo() {
+        return sueldo;
+    }
+
+    public void setSueldo(double sueldo) {
+        this.sueldo = sueldo;
+    }
+    
     public String getNombre() {
         return nombre;
     }
@@ -54,6 +65,9 @@ public class Bartenders {
         this.licores = licores;
     }
     
-    
+   public String toString(){
+        
+        return "El  Bartender: "+nombre+" con edad: "+edad+ ", que tiene turno "+turno+", su sueldo es: "+sueldo+ " y tiene "+licores+" disponibles";
+    } 
     
 }

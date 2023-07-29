@@ -46,5 +46,9 @@ public class Mesas {
         this.precio = precio;
     }
     
+    public String toString(){
+        
+        return "La mesa tiene: "+platos+" y "+utensilios+ " utensilios, con precio es: "+precio+precio;
+    }
     
 }

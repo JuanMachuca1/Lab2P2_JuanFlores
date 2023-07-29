@@ -65,5 +65,9 @@ public class Meseros {
         this.propina = propina;
     }
     
+    public String toString(){
+        
+        return "El mesero: "+nombre+" con edad: "+edad+ ", que tiene turno "+turno+", su sueldo es: "+sueldo+ " con "+propina +" de propina";
+    }
     
 }

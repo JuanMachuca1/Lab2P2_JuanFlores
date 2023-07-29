@@ -70,6 +70,6 @@ public Chefs(String nombre, int edad,String turno, int estrellasM, double sueldo
 
     public String toString(){
         
-        return "El chef: "+nombre+" con edad: "+edad+ ", que tiene turno "+turno+", cuenta con: "+estrellasM+ "y su sueldo es: "+sueldo;
+        return "El chef: "+nombre+" con edad: "+edad+ ", que tiene turno "+turno+", cuenta con: "+estrellasM+ " y su sueldo es: "+sueldo;
     }
 }
